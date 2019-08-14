@@ -5,18 +5,22 @@
 
 .buttonStyle {
   margin: 20px;
-  color: white;
+  color: #96bbe9;
   background-color: transparent;
   font-size: 22px;
   font-weight: bold;
   letter-spacing: 3;
   width: 100%;
   height: 55px;
-  border: 4px solid #4a52b6;
+  border: 1px #96bbe9;
   border-radius: 25px;
+  outline: none;
 }
 
 .buttonStyle:hover {
-  background-color: #2e1652;
+  background-color: #e2e2e2;
+  transition: background-color 0.5s ease-out;
+  box-shadow: 0 8px 6px -6px black;
+  color: #2e1652;
   border-radius: 25px;
 }

@@ -7,7 +7,11 @@ import "./index.scss";
 
 class App extends React.Component {
   render() {
-    return <Container />;
+    return (
+      <div className="box">
+        <Container />
+      </div>
+    );
   }
 }
 

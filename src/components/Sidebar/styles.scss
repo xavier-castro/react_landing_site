@@ -1,9 +1,15 @@
 .sidebarContainer {
+  color: white;
+  font-weight: bold;
   display: flex;
   flex-direction: column;
   flex: 1;
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
+}
+
+ul {
+  list-style: none;
 }
 
 .topContent {
@@ -34,7 +40,7 @@
   justify-content: center;
   align-items: center;
   align-self: stretch;
-  background-color: #4c56c0;
+  background-color: #4a52b6;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
 }

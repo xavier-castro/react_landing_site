@@ -8,7 +8,7 @@ const Container = () => {
   return (
     <div className="container">
       <div className="sidebarContainer">
-        <Sidebar />
+        <Sidebar className="bShadow bShadow-1" />
       </div>
       <div className="contentContainer">
         <Dashboard />

@@ -1,0 +1,22 @@
+.buttonContainer {
+  display: flex;
+  flex: 1;
+}
+
+.buttonStyle {
+  margin: 20px;
+  color: white;
+  background-color: transparent;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 3;
+  width: 100%;
+  height: 55px;
+  border: 4px solid #4a52b6;
+  border-radius: 25px;
+}
+
+.buttonStyle:hover {
+  background-color: #2e1652;
+  border-radius: 25px;
+}

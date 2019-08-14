@@ -4,11 +4,11 @@ import "./styles.scss";
 
 const TopCard = ({ image, titleText, bodyText }) => {
   return (
-    <div className="fullCardContainer effect8">
+    <div className="fullCardContainer">
       <div className="containerCard">
         <img src={image} />
       </div>
-      <div className="imageDescriptionContainer">
+      {/* <div className="imageDescriptionContainer">
         <h2 style={{ textAlign: "center", marginTop: 15 }}>{titleText}</h2>
         <p
           style={{
@@ -20,7 +20,7 @@ const TopCard = ({ image, titleText, bodyText }) => {
         >
           {bodyText}
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };

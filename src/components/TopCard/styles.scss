@@ -6,28 +6,29 @@
   flex: 1;
   flex-direction: column;
   justify-content: space-between;
-  padding: 15px;
+  padding: 1px;
   margin: 15px;
   max-height: 150;
   max-width: 65%;
-  width: auto;
+  //   width: auto;
 }
 
 .containerCard {
   // background-color: red;
   display: flex;
   flex-direction: column;
-  border-radius: 25px;
+  border-radius: 20px;
   height: auto;
   align-items: center;
-  margin-bottom: 15px;
+  // margin-bottom: 15px;
+  margin: 2px;
 }
 
 img {
   object-fit: cover;
   height: 200px;
-  width: 90%;
-  border-radius: 25px;
+  width: 100%;
+  border-radius: 15px;
 }
 
 .imageDescriptionContainer {

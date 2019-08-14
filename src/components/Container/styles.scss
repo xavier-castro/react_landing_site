@@ -1,6 +1,6 @@
 .container {
   max-width: 100%;
-  min-height: 100vh;
+  min-height: 95vh;
   max-height: 100vh;
   display: flex;
   flex-direction: row;
@@ -9,26 +9,29 @@
 }
 
 .sidebarContainer {
-  background-color: transparent;
-  box-shadow: 3px 2px 5px rgb(65, 62, 62);
+  background: rgb(248, 248, 212);
+  background: linear-gradient(90deg, #c7b3d7 0%, rgba(9, 187, 246, 1) 100%);
+  box-shadow: 15px 15px 30px #34323c;
+  overflow: hidden;
   min-width: 220px;
-  max-width: 180px;
+  max-width: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: -4%;
   border-radius: 25px;
-  margin-top: 0.895%;
-  margin-bottom: 0.895%;
-  z-index: 9999;
+  margin-top: 1.895%;
+  margin-bottom: 1.895%;
+  z-index: 2;
 }
 
 .contentContainer {
   background-color: #f5f7fb;
-  box-shadow: 15px 25px 50px rgb(177, 177, 177);
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23787878' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  box-shadow: 15px 25px 50px #34323c;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
-  max-width: 80vw;
+  max-width: 85vw;
   margin-top: 1%;
   margin-bottom: 1%;
 }

@@ -1,3 +1,12 @@
+.avi {
+  border-radius: 50%;
+  width: 50%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 .sidebarContainer {
   color: white;
   font-weight: bold;
@@ -6,10 +15,15 @@
   flex: 1;
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
+  overflow: hidden;
 }
 
 ul {
   list-style: none;
+}
+
+li {
+  display: flex;
 }
 
 .topContent {
@@ -17,6 +31,7 @@ ul {
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   display: flex;
+  flex-direction: row;
   flex: 2;
   justify-content: center;
   justify-content: center;
@@ -27,11 +42,11 @@ ul {
 
 .middleContent {
   flex: 5;
-  display: flex;
-  align-items: center;
   justify-content: center;
+  flex-direction: column;
   align-self: stretch;
   background-color: #4c56c0;
+  background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236569a6' fill-opacity='0.28'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 .bottomContent {

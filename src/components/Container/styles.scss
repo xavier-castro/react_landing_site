@@ -1,18 +1,34 @@
 .container {
-  min-width: 100%;
-  min-height: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  max-height: 100vh;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   flex: 1;
 }
 
 .sidebarContainer {
-  background-color: blue;
-  min-width: 25%;
-  min-height: 100%;
+  box-shadow: 15px 0px 15px #929292;
+  background-color: transparent;
+  min-width: 220px;
+  max-width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -4%;
+  border-radius: 25px;
+  margin-top: 0.895%;
+  margin-bottom: 0.895%;
+  z-index: 9999;
 }
 
 .contentContainer {
-  background-color: green;
-  width: 75%;
-  height: 100%;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  min-width: 60vw;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  box-shadow: 5px 25px 25px #929292;
 }

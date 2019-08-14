@@ -1,8 +1,27 @@
 import React from "react";
 
+import "./styles.scss";
+
 class Sidebar extends React.Component {
   render() {
-    return <></>;
+    return (
+      <div className="sidebarContainer">
+        <div className="topContent">
+          <ul>
+            <li className="avi">Photo here</li>
+            <li className="email"> email </li>
+          </ul>
+        </div>
+        <div className="middleContent">
+          <ul>
+            <li className="home"> home </li>
+            <li className="profile"> profile </li>
+            <li className="projects"> projects </li>
+          </ul>
+        </div>
+        <div className="bottomContent">Hi</div>
+      </div>
+    );
   }
 }
 

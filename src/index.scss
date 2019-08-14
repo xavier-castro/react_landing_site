@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: inherit;
 }
+html {
+  height: 100%;
+  width: 100vw;
+  background: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

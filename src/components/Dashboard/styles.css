@@ -1,0 +1,8 @@
+.dashboard {
+    background-color: blue;
+
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 75vh;
+    /* z-index: 10 */
+}

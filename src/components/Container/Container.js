@@ -7,10 +7,10 @@ import Dashboard from "../Dashboard/Dashboard";
 const Container = () => {
   return (
     <div className="container">
-      <div className="sidebarContainer">
-        <Sidebar className="bShadow bShadow-1" />
+      <div className="sidebarContainer effect4">
+        <Sidebar className="effect4" />
       </div>
-      <div className="contentContainer">
+      <div className="contentContainer effect4">
         <Dashboard />
       </div>
     </div>

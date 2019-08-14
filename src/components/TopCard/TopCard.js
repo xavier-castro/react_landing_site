@@ -4,7 +4,7 @@ import "./styles.scss";
 
 const TopCard = ({ image, titleText, bodyText }) => {
   return (
-    <div className="fullCardContainer">
+    <div className="fullCardContainer effect8">
       <div className="containerCard">
         <img src={image} />
       </div>

@@ -4,6 +4,8 @@ import ReactDOM from "react-dom";
 import Background from "./components/Background/Background";
 import Dashboard from "./components/Dashboard/Dashboard";
 
+import "./index.css";
+
 class App extends React.Component {
   render() {
     return (

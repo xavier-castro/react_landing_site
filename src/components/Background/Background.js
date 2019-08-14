@@ -1,12 +1,8 @@
-import React from 'react';
-import './styles.css';
+import React from "react";
+import "./styles.css";
 
-const Background = ({ children }) => {
-    return (
-        <div className="background">
-            {children}
-        </div>
-    );
-}
+const Background = () => {
+  return <div className="background" />;
+};
 
 export default Background;

@@ -16,9 +16,15 @@ class Sidebar extends React.Component {
         </div>
         <div className="middleContent">
           <ul>
-            <li className="home"> home </li>
-            <li className="profile"> profile </li>
-            <li className="projects"> projects </li>
+            <li>
+              <button className="home">HOME</button>
+            </li>
+            <li>
+              <button className="profile">PROFILE</button>
+            </li>
+            <li>
+              <button className="projects">PROJECTS</button>
+            </li>
           </ul>
         </div>
         <div className="bottomContent">Hi</div>

@@ -14,12 +14,20 @@ class Dashboard extends React.Component {
         <div className="top">
           <div className="threeCardContainer">
             <TopCard
-              titleText="Computer"
-              bodyText="Yes"
+              titleText="Analyze"
+              bodyText="Examine and evaluate information to identify relationships and draw conclusions."
               image={computerImage}
             />
-            <TopCard titleText="Develop" bodyText="No" image={developImage} />
-            <TopCard titleText="Explore" bodyText="Si" image={exploreImage} />
+            <TopCard
+              titleText="Develop"
+              bodyText="Create and maintain programs to fulfill objectives and provide a gain in overall quality of life."
+              image={developImage}
+            />
+            <TopCard
+              titleText="Explore"
+              bodyText="Research and identify new areas of knowledge to continue education and make the world a better place."
+              image={exploreImage}
+            />
           </div>
         </div>
         <div className="middle" />

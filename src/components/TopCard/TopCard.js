@@ -8,14 +8,18 @@ const TopCard = ({ image, titleText, bodyText }) => {
       <div className="containerCard">
         <img src={image} />
       </div>
-      <div
-        className="imageDescriptionContainer"
-        style={{ backgroundColor: "orange" }}
-      >
-        <h2 style={{ backgroundColor: "yellow", textAlign: "center" }}>
-          {titleText}
-        </h2>
-        <p style={{ textAlign: "left" }}>{bodyText}</p>
+      <div className="imageDescriptionContainer">
+        <h2 style={{ textAlign: "center", marginTop: 15 }}>{titleText}</h2>
+        <p
+          style={{
+            textAlign: "left",
+            marginTop: 15,
+            padding: 5,
+            fontSize: 22
+          }}
+        >
+          {bodyText}
+        </p>
       </div>
     </div>
   );

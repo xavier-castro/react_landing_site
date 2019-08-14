@@ -3,7 +3,11 @@ import "./styles.css";
 
 class Dashboard extends React.Component {
   render() {
-    return <div className="dashboard" />;
+    return (
+      <>
+        <div className="dashboard" />
+      </>
+    );
   }
 }
 

@@ -10,7 +10,7 @@ import exploreImage from "../../assets/explore.jpg";
 class Dashboard extends React.Component {
   render() {
     return (
-      <div className="dashboard">
+      <div className="dashboard effect8">
         <div className="top">
           <div className="threeCardContainer">
             <TopCard

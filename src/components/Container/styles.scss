@@ -10,7 +10,7 @@
 
 .sidebarContainer {
   background-color: transparent;
-  // box-shadow: 15px 0px 10px rgb(182, 180, 180);
+  box-shadow: 3px 2px 5px rgb(65, 62, 62);
   min-width: 220px;
   max-width: 180px;
   display: flex;
@@ -25,34 +25,10 @@
 
 .contentContainer {
   background-color: #f5f7fb;
-  // box-shadow: 15px 25px 15px rgb(177, 177, 177);
+  box-shadow: 15px 25px 50px rgb(177, 177, 177);
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   max-width: 80vw;
   margin-top: 1%;
   margin-bottom: 1%;
-}
-
-.effect4 {
-  position: relative;
-}
-.effect4:after {
-  z-index: -1;
-  position: absolute;
-  content: "";
-  bottom: 15px;
-  right: 10px;
-  left: auto;
-  width: 50%;
-  top: 80%;
-  max-width: 300px;
-  background: #777;
-  -webkit-box-shadow: 0 15px 10px #777;
-  -moz-box-shadow: 0 15px 10px #777;
-  box-shadow: 0 15px 10px #777;
-  -webkit-transform: rotate(3deg);
-  -moz-transform: rotate(3deg);
-  -o-transform: rotate(3deg);
-  -ms-transform: rotate(3deg);
-  transform: rotate(3deg);
 }

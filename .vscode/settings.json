@@ -1,10 +1,10 @@
 {
   "editor.formatOnSave": true,
   "workbench.colorCustomizations": {
-    "titleBar.activeBackground": "#101de8",
-    "titleBar.inactiveBackground": "#101de899",
+    "titleBar.activeBackground": "#ae2684",
+    "titleBar.inactiveBackground": "#ae268499",
     "titleBar.activeForeground": "#e7e7e7",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#101de8"
+  "peacock.color": "#ae2684"
 }

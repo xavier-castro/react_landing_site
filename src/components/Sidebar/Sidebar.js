@@ -8,7 +8,9 @@ class Sidebar extends React.Component {
       <div className="sidebarContainer">
         <div className="topContent">
           <ul>
-            <li className="avi">Photo here</li>
+            <a>
+              <li className="avi">Photo here</li>
+            </a>
             <li className="email"> email </li>
           </ul>
         </div>

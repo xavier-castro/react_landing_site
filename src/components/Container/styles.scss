@@ -9,7 +9,6 @@
 }
 
 .sidebarContainer {
-  box-shadow: 15px 0px 15px #929292;
   background-color: transparent;
   min-width: 220px;
   max-width: 180px;
@@ -24,11 +23,10 @@
 }
 
 .contentContainer {
-  background-color: white;
+  background-color: #f5f7fb;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   min-width: 60vw;
   margin-top: 1%;
   margin-bottom: 1%;
-  box-shadow: 5px 25px 25px #929292;
 }
